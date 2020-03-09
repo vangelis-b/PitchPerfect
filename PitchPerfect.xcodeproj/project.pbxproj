@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		393A038C2415BE1100C1B3C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393A038B2415BE1100C1B3C6 /* AppDelegate.swift */; };
 		393A038E2415BE1100C1B3C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393A038D2415BE1100C1B3C6 /* SceneDelegate.swift */; };
-		393A03902415BE1100C1B3C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393A038F2415BE1100C1B3C6 /* ViewController.swift */; };
+		393A03902415BE1100C1B3C6 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393A038F2415BE1100C1B3C6 /* RecordSoundsViewController.swift */; };
 		393A03932415BE1100C1B3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393A03912415BE1100C1B3C6 /* Main.storyboard */; };
 		393A03952415BE1100C1B3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393A03942415BE1100C1B3C6 /* Assets.xcassets */; };
 		393A03982415BE1100C1B3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393A03962415BE1100C1B3C6 /* LaunchScreen.storyboard */; };
+		39507EDE2415C5C3006573C3 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39507EDD2415C5C3006573C3 /* PlaySoundsViewController.swift */; };
+		39507EE02415C5EC006573C3 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39507EDF2415C5EC006573C3 /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		393A03882415BE1100C1B3C6 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		393A03882415BE1100C1B3C6 /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		393A038B2415BE1100C1B3C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		393A038D2415BE1100C1B3C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		393A038F2415BE1100C1B3C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		393A038F2415BE1100C1B3C6 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		393A03922415BE1100C1B3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		393A03942415BE1100C1B3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393A03972415BE1100C1B3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		393A03992415BE1100C1B3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39507EDD2415C5C3006573C3 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		39507EDF2415C5EC006573C3 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		393A03892415BE1100C1B3C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				393A03882415BE1100C1B3C6 /* PitchPerfect.app */,
+				393A03882415BE1100C1B3C6 /* Pitch Perfect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,11 +62,13 @@
 			children = (
 				393A038B2415BE1100C1B3C6 /* AppDelegate.swift */,
 				393A038D2415BE1100C1B3C6 /* SceneDelegate.swift */,
-				393A038F2415BE1100C1B3C6 /* ViewController.swift */,
+				393A038F2415BE1100C1B3C6 /* RecordSoundsViewController.swift */,
 				393A03912415BE1100C1B3C6 /* Main.storyboard */,
 				393A03942415BE1100C1B3C6 /* Assets.xcassets */,
 				393A03962415BE1100C1B3C6 /* LaunchScreen.storyboard */,
 				393A03992415BE1100C1B3C6 /* Info.plist */,
+				39507EDD2415C5C3006573C3 /* PlaySoundsViewController.swift */,
+				39507EDF2415C5EC006573C3 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -84,7 +90,7 @@
 			);
 			name = PitchPerfect;
 			productName = PitchPerfect;
-			productReference = 393A03882415BE1100C1B3C6 /* PitchPerfect.app */;
+			productReference = 393A03882415BE1100C1B3C6 /* Pitch Perfect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393A03902415BE1100C1B3C6 /* ViewController.swift in Sources */,
+				39507EE02415C5EC006573C3 /* PlaySoundsViewController+Audio.swift in Sources */,
+				393A03902415BE1100C1B3C6 /* RecordSoundsViewController.swift in Sources */,
 				393A038C2415BE1100C1B3C6 /* AppDelegate.swift in Sources */,
+				39507EDE2415C5C3006573C3 /* PlaySoundsViewController.swift in Sources */,
 				393A038E2415BE1100C1B3C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vangelis-Bouzoukas.PitchPerfect";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pitch Perfect";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Vangelis-Bouzoukas.PitchPerfect";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Pitch Perfect";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
